@@ -17,6 +17,10 @@ body{
    justify-content: space-around;
    list-style-type: none;
 }
+.flex1{
+    justify-content: flex-start;
+    width: 30%;
+}
 
 .projects{
   display: flex;
