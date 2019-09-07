@@ -48,11 +48,15 @@ span{
 .projects{
   display: flex;
   flex-direction: column;
-  height: 500px;
+  height: auto;
   justify-content: space-around;
   background: #730217;
 }
-
+img{
+  width: 15%;
+  height: 15%;
+  margin-top: 5%;
+}
 .resume{
    display: flex;
    flex-direction: row;
