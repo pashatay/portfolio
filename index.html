@@ -6,44 +6,98 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>My Portfolio</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style-projects.css">
+<link href="https://fonts.googleapis.com/css?family=Alegreya&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav class='navbar'>
+    <a id='myBtn' href="#start">UP</a>
+    <nav id='start' class='navbar'>
         <ul class="navbar-links">
             <li class='flex1'>main</li>
-            <li>projects</li>
-            <li>resume</li>
-            <li><a href="#contacts-link">contacts</li>
+            <li><a href="#projects-anchor">projects</a></li>
+            <li><a href="#resume-anchor">resume</a></li>
+            <li><a href="#contacts-anchor">contacts</a></li>
         </ul>
     </nav>
     <div class="about-me">
         <p>
         Hi, I'm <span>Pavel</span>. I'm a fullstack developer. <br> <br> I know how to write code, music, and successful stories out of the toughest problems. 
-        <br> My heart always had a passion for technology, but overall I was born to be a creator and it was almost impossible to satisfy both at the same time. Everything changed when I discovered programming...
-        <br> I play with HTML, CSS, JavaScript, Python, Jquery, React, Node, Posgress.
+        <br> My heart always had a passion for technology, but overall I was born to be a creator and it was almost impossible to satisfy both at the same time. Everything changed when I discovered programming.
+        <br><br> I play with HTML, CSS, JavaScript, Python, Jquery, React, Node, Posgress.
         <br> <br> Feel free to contact me. 
         let's create something magical together.
         </p>
+        <img class='ava' src='pics/ava.jpg' alt="ava">
     </div>
-    <div class='projects'>
-        <div class='p1'>Project 1
-            <img src='pics/rgb.png' alt="rgb game screen-shot">
+    <div id='projects-anchor' class='projects'>
+
+        <div class='p1'>
+                <p>
+                    <a href="https://github.com/pashatay/RGBGame" target="_blank">The Great RGB Game</a>
+                   is a fun game that will help you to test your rgb skills. 
+                   In every play you will get an rgb values, your task is to detemine what outcome color those values represent. 
+                   There are two modes to play. Don't feel quiet confident yet? Chose "Easy" mode over the "Hard" one. 
+                   <br><br>
+                   Techonologies I used to build this: html, CSS, JS.
+                   <br><br>
+                   Click on a picture to start playing. 
+                   Want to get "befind-the-scenes"? Click on a game tittle to see the repo. 
+                </p>
+                <a href="https://pashatay.github.io/RGBGame/" target="_blank"><img class='project-img' src='pics/rgb.png' alt="rgb game screen-shot"></a>
         </div>
-        <div class='p2'>Project 2</div>
-        <div class='p3'>Project 3</div>
+
+
+        <div class='p2'>
+                <p>
+                    <a href="https://github.com/pashatay/todoList" target="_blank">TODO List</a>
+                       is a fun game that will help you to test your rgb skills. 
+                       In every play you will get an rgb values, your task is to detemine what outcome color those values represent. 
+                       There are two modes to play. Don't feel quiet confident yet? Chose "Easy" mode over the "Hard" one. 
+                       In every play you will get an rgb values, your task is to detemine what outcome color those values represent. 
+                       There are two modes to play. Don't feel quiet confident
+                       In every play you will get an rgb values, your task is to detemine what outcome color those values represent. 
+                       There are two modes to play. Don't feel quiet confident
+                       <br><br>
+                       Techonologies I used to build this: html, CSS, JS.
+                       <br><br>
+                       Click on a picture to start playing. 
+                       Want to get "befind-the-scenes"? Click on a game tittle to see the repo. 
+                    </p>
+                    <a href="https://pashatay.github.io/todoList/" target="_blank"><img class='project-img' src='pics/todo.png' alt="todo screen-shot"></a>
+    
+        </div>
+        <div class='p3'>
+                <p>
+                        <a href="https://github.com/pashatay/RGBGame" target="_blank">The Great RGB Game</a>
+                       is a fun game that will help you to test your rgb skills. 
+                       In every play you will get an rgb values, your task is to detemine what outcome color those values represent. 
+                       There are two modes to play. Don't feel quiet confident yet? Chose "Easy" mode over the "Hard" one. 
+                       <br><br>
+                       Techonologies I used to build this: html, CSS, JS.
+                       <br><br>
+                       Click on a picture to start playing. 
+                       Want to get "befind-the-scenes"? Click on a game tittle to see the repo. 
+                    </p>
+                    <a href="https://pashatay.github.io/RGBGame/" target="_blank"><img class='project-img' src='pics/quiz.png' alt="quiz screen-shot"></a>
+    
+        </div>
     </div>
-    <div class="resume">
-        <div class="r-pdf"><a href="files/resume-pdf.pdf" download>Get PDF</a></div>
-        <div class="r-docx"><a href="files/resume-word.docx" download>Get DOCX</a></div>
-        <div class="r-pages"><a href="files/resume-pages.pages" download>Get Pages</a></div>
+    <div id='resume-anchor' class="resume">
+        <p>If you would like to know more about my work experience and my education, please get my up
+            to date resume. I have it in three different formats for yout convinience.
+        </p>
+        <div class="resume-links">
+        <div class="resume-downoload"><a href="files/resume-pdf.pdf" download><img class='resume-img' src='icons/pdf.png' alt="pdf-icon"></a></div>
+        <div class="resume-downoload"><a href="files/resume-word.docx" download><img class='resume-img' src='icons/word.png' alt="word-icon"></a></div>
+        <div class="resume-downoload"><a href="files/resume-pages.pages" download><img class='resume-img' src='icons/pages.png' alt="pages-icon"></a></div>
+   </div>
+   
     </div>
-    <div class="contacts" >
-            <a id="contacts-link"></a>
-        <div class="phone"><a href="tel:123-456-7890">Call</a></div>
-        <div class="email"><a href="mailto:pavelpetrasuk@gmail.com">Email me</a></div>
-        <div class="linkedin"><a href="https://www.linkedin.com/in/pavel-petrasyuk-1b9155147/">linkedin</a></div>
-        <div class="github"><a href="https://github.com/pashatay">Github</a></div>
+    <div id='contacts-anchor' class="contacts" >
+        <div class="phone"><a href="tel:123-456-7890"><img class='contact-img' src='icons/call.png' alt="call-icon"></a></div>
+        <div class="email"><a href="mailto:pavelpetrasuk@gmail.com"><img class='contact-img' src='icons/email.png' alt="email-icon"></a></div>
+        <div class="linkedin"><a href="https://www.linkedin.com/in/pavel-petrasyuk-1b9155147/"><img class='contact-img' src='icons/linkedin.png' alt="linkedin-icon"></a></div>
+        <div class="github"><a href="https://github.com/pashatay"><img class='contact-img' src='icons/github.png' alt="github-icon"></a></div>
     </div>
 </body>
 </html>

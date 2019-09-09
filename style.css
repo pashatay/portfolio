@@ -4,13 +4,16 @@
 body{
   padding: 0;
   margin: 0;
-  background: white;
-  font-family: 'Raleway', sans-serif;
+  background: rgba(241, 90, 36, 1);
+  font-family:'Alegreya', serif;
+  letter-spacing: 0.1em;
+  word-spacing: 0.2em;
+  text-align: justify;
 }
 .navbar{
     display: block;
     height: 15%;
-    background: white;
+    background: rgba(241, 90, 36, 1);
     
 }
 .navbar-links {
@@ -18,11 +21,15 @@ body{
    flex-direction: row;
    justify-content: space-around;
    list-style-type: none;
-   color: black;
+   color: rgb(247, 241, 241);
    font-size: 18px;
+   
 }
-.flex1:hover{
-    background: #eef12b;
+.navbar-links>li{
+  margin-top: 1%;
+}
+.navbar-links>li:hover{
+    background: #2E334A;
 }
 .flex1{
     justify-content: flex-start;
@@ -30,45 +37,104 @@ body{
 }
 .about-me{
   display: flex;
-  flex-direction: column;
-  height: auto;
+  height: 100vh;
+  flex-direction: row;
   justify-content: space-around;
-  background: black;
+  background: #2E334A;
+  
 }
+.about-me>img{
+  display: flex;
+  width:40%;
+  height: auto;
+  max-width:100%;
+  max-height:100%;
+
+}
+.about-me>p{
+ padding: 10% 5% 0% 0;
+}
+
 p{
     color: #D9D9D9;
     font-size: 20px;
     width: 70%;
-    margin: 5%;
+    flex-grow: 1;
+    margin-right: 5%;
+    margin-left: 5%;
 }
 span{
-    font-weight: bold;
-    color: #eef12b;
+    font-weight: 900;
+    font-size: 1.5em;
+    color: rgba(241, 90, 36, 1);
 }
-.projects{
+
+.resume{
   display: flex;
   flex-direction: column;
+  background: #2E334A;
   height: auto;
-  justify-content: space-around;
-  background: #730217;
 }
-img{
-  width: 15%;
-  height: 15%;
-  margin-top: 5%;
+.resume>p{
+  display: flex;
+  text-align: justify;
+  width: auto;
+  color: rgb(255, 255, 255);
+  justify-content: center;
+  font-size: 2em;
 }
-.resume{
+.resume-links{
    display: flex;
    flex-direction: row;
    justify-content: space-around;
-   background: rgb(83, 80, 80);
-   height: 100px;
+   margin-bottom: 3%;
 }
 
+
+.resume-downoload{
+  padding: 1%;
+}
 .contacts{
    display: flex;
    flex-direction: row;
    justify-content: space-around;
-   background: rgb(175, 173, 173);
+   background: rgba(241, 90, 36, 1);
    height: 50px;
+   margin: 2%;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+p>a{
+  color: rgba(241, 90, 36, 1);
+  font-weight: 800;
+  font-size: 1.5em;
+}
+.resume-img{
+  width: 5vmax;
+}
+.contact-img{
+  width: 50px;
+}
+
+#myBtn {
+  /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: rgba(241, 90, 36, 1); /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 2vmin;
+  font-weight: bold; /* Increase font size */
+}
+#myBtn:hover{
+  transform: translate(0px,-4px);
 }
