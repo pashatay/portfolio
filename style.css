@@ -10,6 +10,9 @@ body{
   word-spacing: 0.2em;
   text-align: justify;
 }
+.hamburger{
+  visibility: hidden;
+}
 .navbar{
     display: block;
     height: 15%;
@@ -81,7 +84,7 @@ span{
   width: auto;
   color: rgb(255, 255, 255);
   justify-content: center;
-  font-size: 2em;
+  font-size: 20px;
 }
 .resume-links{
    display: flex;
@@ -113,7 +116,7 @@ p>a{
   font-size: 1.5em;
 }
 .resume-img{
-  width: 5vmax;
+  width: 50px;
 }
 .contact-img{
   width: 50px;

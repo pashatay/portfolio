@@ -1,0 +1,53 @@
+@media screen and (min-width: 320px) and (max-width: 750px){
+  .about-me{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 3%;
+  }
+  .about-me>img{
+      display: none;
+  }
+  .about-me>p{
+    width: 85%;
+    height: 100vh;
+    padding:0;
+  }
+  .projects>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto; 
+  }
+  .resume{
+    display: flex;
+    flex-direction: column;
+    height: auto;  
+  }
+  p{
+      width: 85%;
+  }
+  .resume-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: auto; 
+  }
+  .contacts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto; 
+  }
+  #myBtn{
+      display: none;
+  }
+  .hamburger{
+    visibility: visible;
+    color: white;
+    float: left;
+    margin-left: 2%;
+    position: fixed;
+  }
+}
