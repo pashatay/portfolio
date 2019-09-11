@@ -1,4 +1,4 @@
-@media screen and (min-width: 320px) and (max-width: 750px){
+@media screen and (max-width: 750px){
   .about-me{
     display: flex;
     flex-direction: column;
@@ -44,10 +44,28 @@
       display: none;
   }
   .hamburger{
+    display: block;
+  }
+.main{
     visibility: visible;
-    color: white;
-    float: left;
-    margin-left: 2%;
-    position: fixed;
+}
+  .navbar-links{
+      position: absolute;
+      left: 0px;
+      height: 98vh;
+      top: 8vh;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+      background: rgba(241, 90, 36, 1);
+      transform: translateX(100%);
+      transition: transform 0.5s ease-in;
+  }
+  .navbar-links li {
+      opacity: 0;
+  }
+  body{
+      overflow-x: hidden;
   }
 }
