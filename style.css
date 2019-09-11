@@ -22,6 +22,7 @@ body{
   margin: 1%;
   cursor: pointer;
 }
+
 .navbar{
     display: block;
     height: 15%;
@@ -160,6 +161,3 @@ p>a{
 }
 
 
-.navbar-active{
-  transform: translateX(0%);
-}
