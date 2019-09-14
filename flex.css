@@ -36,38 +36,40 @@
   }
   .contacts{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     height: auto; 
   }
   #myBtn{
-      display: none;
+    display: none;
   }
   .hamburger{
     display: block;
   }
-.main{
+  .main{
     visibility: visible;
 }
   .navbar-links{
-      position: fixed;
-      left: 0px;
-      height: 100vh;
-      flex-direction: column;
-      justify-content: space-around;
-      align-items: center;
-      width: 100%;
-      background: rgba(241, 90, 36, 1);
-      transform: translateX(100%);
+    position: fixed;
+    left: 0px;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: rgba(241, 90, 36, 1);
+    transform: translateX(100%);
       
   }
- 
+  .navbar-links li{
+    margin: 3%;
+ }
   .navbar-active{
     transform: translateX(0%);
     transition: transform 0.5s ease-in;
   }
 
   body{
-      overflow-x: hidden;
+    overflow-x: hidden;
   }
 }
