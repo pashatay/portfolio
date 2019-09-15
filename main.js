@@ -4,6 +4,9 @@ const burger = document.querySelector('.hamburger');
 
 const navSlide = () =>{
     burger.addEventListener('click', () =>{
+      if(nav.className === 'navbar-active'){
+        nav.className = 'navbar-inactive'
+     }
         nav.classList.toggle('navbar-active');
 
         links.forEach((el,idx)=>{

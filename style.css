@@ -169,11 +169,11 @@ p>a{
 @keyframes navbarLinksFade{
   from{
     opacity: 0;
-    transform: translateX(50px);
+    transform: translateX(0px);
   }
   to{
     opacity: 1;
-    transform: translateX(0px);
+    transform: translateX(50px);
   }
 }
 
