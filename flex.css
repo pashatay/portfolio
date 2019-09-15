@@ -58,7 +58,7 @@
     align-items: center;
     width: 100%;
     background: rgba(241, 90, 36, 1);
-    transform: translateX(100%);
+    transform: translateX(-100%);
       
   }
   .navbar-links li{
@@ -68,7 +68,11 @@
     transform: translateX(0%);
     transition: transform 0.5s ease-in;
   }
-
+  .navbar-inactive{
+    transform: translateX(-100%);
+    transition: transform 0.5s ease-in;
+  }
+  
   body{
     overflow-x: hidden;
   }
