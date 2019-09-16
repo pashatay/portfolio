@@ -47,7 +47,7 @@
     display: none;
   }
   .hamburger{
-    display: block;
+    visibility: visible;
   }
   .main{
     visibility: visible;
