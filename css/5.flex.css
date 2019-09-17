@@ -98,3 +98,9 @@
     font-size: 1.3em;
   }
 }
+
+@media screen and (max-width: 350px){
+  p{
+    font-size: 1.2em;
+  }
+}
