@@ -54,7 +54,7 @@ p {
 
 span {
   font-weight: 900;
-  font-size: 1.5em;
+  font-size: 1.3em;
   color: rgba(241, 90, 36, 1);
 }
 
@@ -265,6 +265,10 @@ p>a {
     padding: 3%;
   }
 
+  span {
+    font-size: 1.3em;
+  }
+
   .contact-img {
     width: 30px;
   }
@@ -367,10 +371,18 @@ p>a {
   p {
     font-size: 1.3em;
   }
+
+  span {
+    font-size: 1.3em;
+  }
 }
 
 @media screen and (max-width: 350px) {
   p {
     font-size: 1.2em;
+  }
+
+  span {
+    font-size: 1.3em;
   }
 }
