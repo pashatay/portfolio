@@ -49,7 +49,7 @@
     display: none;
   }
   .hamburger{
-    visibility: visible;
+    display: block;
   }
   .main{
     visibility: visible;

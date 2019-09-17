@@ -24,7 +24,7 @@
 /*Hamburger menu*/
 
 .hamburger{
-    visibility: hidden;
+    display: none;
     position: fixed;
     margin: 1%;
     cursor: pointer;
