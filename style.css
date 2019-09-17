@@ -114,15 +114,20 @@ p>a {
   justify-content: flex-end;
   list-style-type: none;
   color: rgb(247, 241, 241);
-  font-size: 18px;
+  font-size: 1.3em;
 }
 
 .navbar-links>li {
   margin: 1% 2% 1% 2%;
+  align-items: center;
 }
 
-.navbar-links>li:hover {
-  background: #2E334A;
+.navbar-links li a:hover {
+  color: #2E334A;
+  text-decoration: underline;
+  font-size: 1.1em;
+  transition: all 0.4s ease 0s;
+  font-weight: 900;
 }
 
 /*Hamburger menu*/
@@ -170,6 +175,10 @@ p>a {
   padding: 3%;
 }
 
+.a-img {
+  margin: auto;
+}
+
 .p1 {
   background: #4D567D;
   flex-direction: row;
@@ -181,12 +190,11 @@ p>a {
 }
 
 .p3 {
-  background: #8D9DE3;
+  background: #4D567D;
 }
 
 .project-img {
-  width: 20vmax;
-  margin: 5%;
+  width: 30vmax;
   -webkit-box-shadow: -2px 7px 40px 2px rgba(0,0,0,0.49);
   -moz-box-shadow: -2px 7px 40px 2px rgba(0,0,0,0.49);
   box-shadow: -2px 7px 40px 2px rgba(0,0,0,0.49);
