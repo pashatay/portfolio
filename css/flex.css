@@ -28,6 +28,7 @@
     flex-direction: column;
     height: auto;  
   }
+  
   p{
       width: 85%;
   }
@@ -43,6 +44,7 @@
     align-items: center;
     height: auto; 
   }
+ 
   #myBtn{
     display: none;
   }
