@@ -18,7 +18,7 @@
     margin: auto;
   }
   .p1{
-    background: #4D567D; 
+    background: #262A3D; 
      flex-direction: row; 
   }
   .p2{
@@ -26,7 +26,7 @@
       flex-direction: row-reverse;
   }
   .p3{
-      background: #4D567D;
+      background: #262A3D;
   }
   .p4{
     background: #262A3D; 
