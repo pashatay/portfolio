@@ -54,7 +54,7 @@ p {
 
 span {
   font-weight: 900;
-  font-size: 1.3em;
+  font-size: 1.2em;
   color: rgba(241, 90, 36, 1);
 }
 
@@ -236,7 +236,7 @@ p>a {
 }
 
 .resume>p>span {
-  font-size: 1.3em;
+  font-size: 1em;
 }
 
 .resume-links {
