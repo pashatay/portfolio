@@ -28,6 +28,15 @@
   .p3{
       background: #4D567D;
   }
+  .p4{
+    background: #262A3D; 
+     flex-direction: row-reverse; 
+  }
+  #links-to-project{
+    display: inline-block;
+    font-size: 1em;
+    font-weight: 500;
+  }
   .project-img{
     width: 30vmax;  
     -webkit-box-shadow: -2px 7px 40px 2px rgba(0,0,0,0.49);

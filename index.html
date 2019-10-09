@@ -5,22 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>My Portfolio</title>
-
     <link rel="stylesheet" type="text/css" href="style.css">
-   	  
-    
-    <link href="https://fonts.googleapis.com/css?family=Alegreya&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:300,400&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.4.1.js"
     integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
     crossorigin="anonymous"></script>
 </head>
+
 <body>
     <div class="hamburger">
         <div class="line1"></div>
         <div class="line2"></div>
         <div class="line3"></div>
     </div>
-    <a id='myBtn' href="#start">UP</a>
+    <a id='button-up' href="#start"></a>
     <nav id='start' class='navbar'>
         <ul class="navbar-links">
             <li class="main"><a href="#">about me</a></li>
@@ -30,7 +28,7 @@
         </ul>
     </nav>
 
-    <div class="about-me">
+    <section class="about-me">
         <p>
         Hi, I'm <span>Pavel</span>. I'm a fullstack developer. <br> <br> I know how to write code, music, and successful stories out of the toughest problems. 
         <br> My heart always had a passion for technology, but overall I was born to be a creator and it was almost impossible to satisfy both at the same time. Everything changed when I discovered programming.
@@ -39,22 +37,21 @@
         let's create something magical together.
         </p>
         <img class='ava' src='pics/ava.JPG' alt="ava">
-    </div>
+    </section>
 
-    <div id='projects-anchor' class='projects'>
+    <section id='projects-anchor' class='projects'>
         <div class='p1'>
                 <p>
-                    <a href="https://github.com/pashatay/RGBGame" target="_blank">The Great RGB Game</a>
-                   is a fun game that will help you to test your rgb skills. 
-                   In every play you will get an rgb values, your task is to detemine what outcome color those values represent. 
-                   There are two modes to play. Don't feel quiet confident yet? Chose "Easy" mode over the "Hard" one. 
+                    <a href="https://github.com/pashatay/recommendo" target="_blank">Recommendo</a>
+                    is a simple, user-friendly app which can get you recomendations based on your favorite content (a favorite book, music band, tv show etc).
                    <br><br>
-                   Techonologies I used to build this: html, CSS, JS.
+                   Techonologies I used to build this: html, CSS, JS, JQuery.
                    <br><br>
-                   Click on a picture to start playing. 
-                   Want to get "behind-the-scenes"? Click on a game tittle to see the repo. 
+                   <a href="https://github.com/pashatay/recommendo" target="_blank" id='links-to-project'>Repo</a>
+                   |
+                   <a href="https://recommendo.herokuapp.com/" target="_blank" id='links-to-project'>LivePage</a>
                 </p>
-                <a href="https://pashatay.github.io/RGBGame/" class='a-img' target="_blank"><img class='project-img' src='pics/rgb.png' alt="rgb game screen-shot"></a>
+                <a href="https://recommendo.herokuapp.com/" class='a-img' target="_blank"><img class='project-img' src='pics/recommendo.png' alt="recommendo screen-shot"></a>
         </div>
 
         <div class='p2'>
@@ -65,8 +62,9 @@
                        <br><br>
                        Techonologies I used to build this: html, CSS, JS, JQuery.
                        <br><br>
-                       Click on a picture to experience the app. 
-                       Want to get "behind-the-scenes"? Click on the app tittle to see the repo. 
+                       <a href="https://github.com/pashatay/todoList" target="_blank" id='links-to-project'>Repo</a>
+                       |
+                       <a href="https://pashatay.github.io/todoList/" target="_blank" id='links-to-project'>LivePage</a>
                     </p>
                     <a href="https://pashatay.github.io/todoList/" class='a-img' target="_blank"><img class='project-img' src='pics/todo.png' alt="todo screen-shot"></a>
         </div>
@@ -84,14 +82,31 @@
                        <br><br>
                        Techonologies I used to build this: html, CSS, JS, Jquery.
                        <br><br>
-                       Click on a picture to start the quiz. 
-                       Want to get "behind-the-scenes"? Click on the app tittle to see the repo. 
+                       <a href="https://github.com/pashatay/QuizApp" target="_blank" id='links-to-project'>Repo</a>
+                       |
+                       <a href="https://pashatay.github.io/QuizApp/" target="_blank" id='links-to-project'>LivePage</a>
                     </p>
                     <a href="https://pashatay.github.io/QuizApp/" class='a-img' target="_blank"><img class='project-img' src='pics/quiz.png' alt="quiz screen-shot"></a>
         </div>
+
+        <div class='p4'>
+            <p>
+                <a href="https://github.com/pashatay/RGBGame" target="_blank">The Great RGB Game</a>
+               is a fun game that will help you to test your rgb skills. 
+               In every play you will get an rgb values, your task is to detemine what outcome color those values represent. 
+               There are two modes to play. Don't feel quiet confident yet? Chose "Easy" mode over the "Hard" one. 
+               <br><br>
+               Techonologies I used to build this: html, CSS, JS.
+               <br><br>
+               <a href="https://github.com/pashatay/RGBGame" target="_blank" id='links-to-project'>Repo</a>
+               |
+               <a href="https://pashatay.github.io/RGBGame/" target="_blank" id='links-to-project'>LivePage</a>
+            </p>
+            <a href="https://pashatay.github.io/RGBGame/" class='a-img' target="_blank"><img class='project-img' src='pics/rgb.png' alt="rgb game screen-shot"></a>
     </div>
+    </section>
     
-    <div id='resume-anchor' class="resume">
+    <section id='resume-anchor' class="resume">
         <p>If you would like to know more about my work experience and my education, please get my 
             up-to-date <span>resume</span>. I have it in three different formats for yout convinience.
         </p>
@@ -99,15 +114,15 @@
         <div class="resume-downoload"><a href="files/resume-pdf.pdf" download><img class='resume-img' src='icons/pdf.png' alt="pdf-icon"></a></div>
         <div class="resume-downoload"><a href="files/resume-word.docx" download><img class='resume-img' src='icons/word.png' alt="word-icon"></a></div>
         <div class="resume-downoload"><a href="files/resume-pages.pages" download><img class='resume-img' src='icons/pages.png' alt="pages-icon"></a></div>
-   </div>
+        </section>
    
-    </div>
-    <div id='contacts-anchor' class="contacts" >
+
+    <section id='contacts-anchor' class="contacts" >
         <div class="phone"><a href="tel:123-456-7890"><img class='contact-img' src='icons/call.png' alt="call-icon"></a></div>
         <div class="email"><a href="mailto:pavelpetrasuk@gmail.com"><img class='contact-img' src='icons/email.png' alt="email-icon"></a></div>
-        <div class="linkedin"><a href="https://www.linkedin.com/in/pashatay/"><img class='contact-img' src='icons/linkedin.png' alt="linkedin-icon"></a></div>
-        <div class="github"><a href="https://github.com/pashatay"><img class='contact-img' src='icons/github.png' alt="github-icon"></a></div>
-    </div>
+        <div class="linkedin"><a href="https://www.linkedin.com/in/pashatay/" target="_blank"><img class='contact-img' src='icons/linkedin.png' alt="linkedin-icon"></a></div>
+        <div class="github"><a href="https://github.com/pashatay" target="_blank"><img class='contact-img' src='icons/github.png' alt="github-icon"></a></div>
+    </section>
 
    <script type='text/javascript' src="main.js"></script>
 </body>
