@@ -160,7 +160,7 @@ p > a {
   margin: auto;
   margin-bottom: 5%;
 }
-#links-to-project {
+.links-to-project {
   display: inline-block;
   font-size: 1em;
   font-weight: 500;
