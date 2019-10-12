@@ -28,7 +28,8 @@ span {
 }
 a {
   text-decoration: none;
-  color: white;
+  color: #1e2231;
+  font-weight: 900;
 }
 .a-img {
   margin: auto;
@@ -94,7 +95,7 @@ p > a {
   align-items: center;
 }
 .navbar-links li a:hover {
-  color: #2e334a;
+  color: white;
   text-decoration: none;
   font-size: 1em;
   transition: all 0.3s ease 0s;
