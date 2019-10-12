@@ -133,7 +133,7 @@ p > a {
   font-weight: 900;
   font-size: 1em;
   text-decoration: underline;
-  color: rgba(241, 90, 36, 1);
+  color: rgba(250, 90, 36, 1);
 }
 
 /*projects*/
@@ -164,6 +164,7 @@ p > a {
   display: inline-block;
   font-size: 1em;
   font-weight: 500;
+  color: rgba(250, 90, 36, 1);
 }
 
 /*resume*/
