@@ -133,7 +133,7 @@ p > a {
   font-weight: 900;
   font-size: 1em;
   text-decoration: underline;
-  color: rgba(250, 90, 36, 1);
+  color: rgba(241, 90, 36, 1);
 }
 
 /*projects*/
@@ -144,7 +144,7 @@ p > a {
   width: 100vw;
   justify-content: space-around;
   color: black;
-  background: #262a3d;
+  background: #1e2231;
 }
 .projects > div {
   display: flex;
@@ -164,7 +164,7 @@ p > a {
   display: inline-block;
   font-size: 1em;
   font-weight: 500;
-  color: rgba(250, 90, 36, 1);
+  color: rgba(241, 90, 36, 1);
 }
 
 /*resume*/
