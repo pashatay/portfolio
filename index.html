@@ -1,130 +1,250 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>My Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Nunito:300,400&display=swap" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.4.1.js"
-    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-    crossorigin="anonymous"></script>
-</head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito:300,400&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.js"
+      integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<body>
+  <body>
     <div class="hamburger">
-        <div class="line1"></div>
-        <div class="line2"></div>
-        <div class="line3"></div>
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
     </div>
-    <a id='button-up' href="#start" aria-label="button up"></a>
-    <nav id='start' class='navbar'>
-        <ul class="navbar-links">
-            <li class="main"><a href="#">about me</a></li>
-            <li><a href="#projects-anchor">projects</a></li>
-            <li><a href="#resume-anchor">resume</a></li>
-            <li><a href="#contacts-anchor">contacts</a></li>
-        </ul>
+    <a id="button-up" href="#start" aria-label="button up"></a>
+    <nav id="start" class="navbar">
+      <ul class="navbar-links">
+        <li class="main"><a href="#">about me</a></li>
+        <li><a href="#projects-anchor">projects</a></li>
+        <li><a href="#resume-anchor">resume</a></li>
+        <li><a href="#contacts-anchor">contacts</a></li>
+      </ul>
     </nav>
 
     <section class="about-me" aria-label="About me info.">
+      <p>
+        Hi, I'm <span>Pavel</span>. I'm a fullstack developer. <br />
+        <br />
+        I know how to write code, compose music, and turn the toughest problems
+        into success stories. <br />
+        I've always had a passion for technology, but I was also born to be a
+        creator. It was almost impossible to satisfy both ...until I discovered
+        programming!
+        <br /><br />
+        I like to play with HTML, CSS, Gulp, JavaScript, Python, React/Redux,
+        Node/Express, JWT, Mocha/Chai, Jasmine, Jest, SuperTest and PosgresSQL.
+        <br />
+        <br />
+        Feel free to <a href="#contacts-anchor">contact</a> me. let's create
+        something magical together.
+      </p>
+      <img class="ava" src="pics/ava.png" alt="ava" />
+    </section>
+
+    <section id="projects-anchor" class="projects" aria-label="Projects.">
+      <div id="p1">
         <p>
-        Hi, I'm <span>Pavel</span>. I'm a fullstack developer. <br> <br> I know how to write code, music, and make a success story out of the toughest problem. 
-        <br> My heart's always had a passion for technology, but overall I was born to be a creator and it was almost impossible to satisfy both at the same time. Everything changed when I discovered programming.
-        <br><br> I play with HTML, CSS, JavaScript, Python, Jquery, React, Node, Gulp, and Posgress.
-        <br> <br> Feel free to <a href="#contacts-anchor">contact</a> me. 
-        let's create something magical together.
+          <a href="https://github.com/pashatay/recommendo" target="_blank"
+            >Recommendo</a
+          >
+          is an app that gives you recomendations based off your favorite
+          content i.e. books, music, tv shows, movies etc. It interfaces with
+          two different APIs.
+          <br /><br />
+          Techonologies I used to build this: HTML, CSS, JS, JQuery.
+          <br /><br />
+          <a
+            href="https://github.com/pashatay/recommendo"
+            target="_blank"
+            class="links-to-project"
+            >Repo</a
+          >
+          |
+          <a
+            href="https://recommendo.herokuapp.com/"
+            target="_blank"
+            class="links-to-project"
+            >LivePage</a
+          >
         </p>
-        <img class='ava' src='pics/ava.png' alt="ava">
-    </section>
+        <a
+          href="https://recommendo.herokuapp.com/"
+          class="a-img"
+          target="_blank"
+          ><img
+            class="project-img"
+            src="pics/recommendo.png"
+            alt="recommendo screen-shot"
+        /></a>
+      </div>
 
-    <section id='projects-anchor' class='projects' aria-label="Projects.">
-        <div id='p1'>
-                <p>
-                    <a href="https://github.com/pashatay/recommendo" target="_blank">Recommendo</a>
-                    is a simple, user-friendly app which can get you recomendations based on your favorite content (a favorite book, music band, tv show, etc).
-                   <br><br>
-                   Techonologies I used to build this: html, CSS, JS, JQuery.
-                   <br><br>
-                   <a href="https://github.com/pashatay/recommendo" target="_blank" class='links-to-project'>Repo</a>
-                   |
-                   <a href="https://recommendo.herokuapp.com/" target="_blank" class='links-to-project'>LivePage</a>
-                </p>
-                <a href="https://recommendo.herokuapp.com/" class='a-img' target="_blank"><img class='project-img' src='pics/recommendo.png' alt="recommendo screen-shot"></a>
-        </div>
-
-        <div id='p2'>
-                <p>
-                    <a href="https://github.com/pashatay/todoList" target="_blank">TODO List</a>
-                       is a simple app, where users can set a to-do list, 
-                       check tasks that were already performed or delete them. 
-                       <br><br>
-                       Techonologies I used to build this: html, CSS, JS, JQuery.
-                       <br><br>
-                       <a href="https://github.com/pashatay/todoList" target="_blank" class='links-to-project'>Repo</a>
-                       |
-                       <a href="https://pashatay.github.io/todoList/" target="_blank" class='links-to-project'>LivePage</a>
-                    </p>
-                    <a href="https://pashatay.github.io/todoList/" class='a-img' target="_blank"><img class='project-img' src='pics/todo.png' alt="todo screen-shot"></a>
-        </div>
-
-        <div id='p3'>
-                <p>
-                        <a href="https://github.com/pashatay/QuizApp" target="_blank">Quiz App</a>
-                       is an application with multiple choice questions where users can 
-                       track their score and also get feedback after each question. It's pretty
-                       intuitive and interactive. 
-                       <br>
-                       As an example I decided to fill it up with questions about world capitals. However, 
-                       the application is built in a way that can be easily modified by a developer. 
-                       Just update an array of questions and you can create a completely different experience for users. 
-                       <br><br>
-                       Techonologies I used to build this: html, CSS, JS, Jquery.
-                       <br><br>
-                       <a href="https://github.com/pashatay/QuizApp" target="_blank" class='links-to-project'>Repo</a>
-                       |
-                       <a href="https://pashatay.github.io/QuizApp/" target="_blank" class='links-to-project'>LivePage</a>
-                    </p>
-                    <a href="https://pashatay.github.io/QuizApp/" class='a-img' target="_blank"><img class='project-img' src='pics/quiz.png' alt="quiz screen-shot"></a>
-        </div>
-
-        <div id='p4'>
-            <p>
-                <a href="https://github.com/pashatay/RGBGame" target="_blank">The Great RGB Game</a>
-               is a fun game that will help you test your rgb skills. 
-               In every play you will get rgb values. Your task is to detemine what outcome color those values represent. 
-               There are two modes you can play in. Don't feel quite confident yet? Choose "Easy" mode over "Hard" mode. 
-               <br><br>
-               Techonologies I used to build this: html, CSS, JS.
-               <br><br>
-               <a href="https://github.com/pashatay/RGBGame" target="_blank" class='links-to-project'>Repo</a>
-               |
-               <a href="https://pashatay.github.io/RGBGame/" target="_blank" class='links-to-project'>LivePage</a>
-            </p>
-            <a href="https://pashatay.github.io/RGBGame/" class='a-img' target="_blank"><img class='project-img' src='pics/rgb.png' alt="rgb game screen-shot"></a>
-    </div>
-    </section>
-    
-    <section id='resume-anchor' class="resume" aria-label="Resume.">
-        <p>If you would like to know more about my work experience and my education, please downoload my 
-            up to date <span>resume</span>. I have it in three different formats for yout convinience.
+      <div id="p2">
+        <p>
+          <a href="https://github.com/pashatay/todoList" target="_blank"
+            >TODO List</a
+          >
+          is a simple app, where users can set a to-do list, check tasks that
+          were already performed or delete them.
+          <br /><br />
+          Techonologies I used to build this: HTML, CSS, JS, JQuery.
+          <br /><br />
+          <a
+            href="https://github.com/pashatay/todoList"
+            target="_blank"
+            class="links-to-project"
+            >Repo</a
+          >
+          |
+          <a
+            href="https://pashatay.github.io/todoList/"
+            target="_blank"
+            class="links-to-project"
+            >LivePage</a
+          >
         </p>
-        <div class="resume-links">
-        <div class="resume-downoload"><a href="files/resume-pdf.pdf" download><img class='resume-img' src='icons/pdf.png' alt="pdf-icon"></a></div>
-        <div class="resume-downoload"><a href="files/resume-word.docx" download><img class='resume-img' src='icons/word.png' alt="word-icon"></a></div>
-        <div class="resume-downoload"><a href="files/resume-pages.pages" download><img class='resume-img' src='icons/pages.png' alt="pages-icon"></a></div>
+        <a
+          href="https://pashatay.github.io/todoList/"
+          class="a-img"
+          target="_blank"
+          ><img class="project-img" src="pics/todo.png" alt="todo screen-shot"
+        /></a>
+      </div>
+
+      <div id="p3">
+        <p>
+          <a href="https://github.com/pashatay/QuizApp" target="_blank"
+            >Quiz App</a
+          >
+          is an application with multiple choice questions where users can track
+          their score and also get feedback after each question.
+          <br />
+          As an example I decided to fill it up with questions about world
+          capitals. However, the application is built in a way that can be
+          easily modified by a developer. Just update an array of questions and
+          you can create a completely different experience for users.
+          <br /><br />
+          Techonologies I used to build this: HTML, CSS, JS, Jquery.
+          <br /><br />
+          <a
+            href="https://github.com/pashatay/QuizApp"
+            target="_blank"
+            class="links-to-project"
+            >Repo</a
+          >
+          |
+          <a
+            href="https://pashatay.github.io/QuizApp/"
+            target="_blank"
+            class="links-to-project"
+            >LivePage</a
+          >
+        </p>
+        <a
+          href="https://pashatay.github.io/QuizApp/"
+          class="a-img"
+          target="_blank"
+          ><img class="project-img" src="pics/quiz.png" alt="quiz screen-shot"
+        /></a>
+      </div>
+
+      <div id="p4">
+        <p>
+          <a href="https://github.com/pashatay/RGBGame" target="_blank"
+            >The Great RGB Game</a
+          >
+          is a fun game that will help you test your rgb skills. In every play
+          you will get rgb values. Your task is to detemine what outcome color
+          those values represent. There are two modes you can play in. Don't
+          feel quite confident yet? Choose "Easy" mode over "Hard" mode.
+          <br /><br />
+          Techonologies I used to build this: HTML, CSS, JS.
+          <br /><br />
+          <a
+            href="https://github.com/pashatay/RGBGame"
+            target="_blank"
+            class="links-to-project"
+            >Repo</a
+          >
+          |
+          <a
+            href="https://pashatay.github.io/RGBGame/"
+            target="_blank"
+            class="links-to-project"
+            >LivePage</a
+          >
+        </p>
+        <a
+          href="https://pashatay.github.io/RGBGame/"
+          class="a-img"
+          target="_blank"
+          ><img
+            class="project-img"
+            src="pics/rgb.png"
+            alt="rgb game screen-shot"
+        /></a>
+      </div>
+    </section>
+
+    <section id="resume-anchor" class="resume" aria-label="Resume.">
+      <p>
+        If you would like to know more about my work experience and my
+        education, please downoload my up to date <span>resume</span>. I have it
+        in three different formats for yout convinience.
+      </p>
+      <div class="resume-links">
+        <div class="resume-downoload">
+          <a href="files/resume-pdf.pdf" download
+            ><img class="resume-img" src="icons/pdf.png" alt="pdf-icon"
+          /></a>
         </div>
+        <div class="resume-downoload">
+          <a href="files/resume-word.docx" download
+            ><img class="resume-img" src="icons/word.png" alt="word-icon"
+          /></a>
+        </div>
+        <div class="resume-downoload">
+          <a href="files/resume-pages.pages" download
+            ><img class="resume-img" src="icons/pages.png" alt="pages-icon"
+          /></a>
+        </div>
+      </div>
     </section>
-   
 
-    <section id='contacts-anchor' class="contacts" aria-label="Contacts.">
-        <div class="phone"><a href="tel:123-456-7890"><img class='contact-img' src='icons/call.png' alt="call-icon"></a></div>
-        <div class="email"><a href="mailto:pavelpetrasuk@gmail.com"><img class='contact-img' src='icons/email.png' alt="email-icon"></a></div>
-        <div class="linkedin"><a href="https://www.linkedin.com/in/pashatay/" target="_blank"><img class='contact-img' src='icons/linkedin.png' alt="linkedin-icon"></a></div>
-        <div class="github"><a href="https://github.com/pashatay" target="_blank"><img class='contact-img' src='icons/github.png' alt="github-icon"></a></div>
+    <section id="contacts-anchor" class="contacts" aria-label="Contacts.">
+      <div class="phone">
+        <a href="tel:123-456-7890"
+          ><img class="contact-img" src="icons/call.png" alt="call-icon"
+        /></a>
+      </div>
+      <div class="email">
+        <a href="mailto:pavelpetrasuk@gmail.com"
+          ><img class="contact-img" src="icons/email.png" alt="email-icon"
+        /></a>
+      </div>
+      <div class="linkedin">
+        <a href="https://www.linkedin.com/in/pashatay/" target="_blank"
+          ><img class="contact-img" src="icons/linkedin.png" alt="linkedin-icon"
+        /></a>
+      </div>
+      <div class="github">
+        <a href="https://github.com/pashatay" target="_blank"
+          ><img class="contact-img" src="icons/github.png" alt="github-icon"
+        /></a>
+      </div>
     </section>
 
-   <script src="main.js"></script>
-</body>
+    <script src="main.js"></script>
+  </body>
 </html>
