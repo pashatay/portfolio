@@ -176,7 +176,7 @@ p > a {
   width: 100vw;
 }
 .resume-img {
-  width: 50px;
+  width: 3.5rem;
 }
 .resume-downoload {
   padding: 1%;
@@ -211,7 +211,7 @@ p > a {
   margin: 2%;
 }
 .contact-img {
-  width: 30px;
+  width: 2rem;
 }
 
 /*phablets media*/
@@ -236,27 +236,21 @@ p > a {
   .resume p {
     font-size: 2em;
   }
-  .resume-img {
-    width: 70px;
-  }
   .hamburger {
     margin: 2%;
   }
   .hamburger div {
-    width: 40px;
-    height: 10px;
+    width: 30px;
+    height: 5px;
   }
   .navbar-links {
     font-size: 2em;
   }
   .toggle .line3 {
-    transform: rotate(-45deg) translate(10px, -2px);
+    transform: rotate(-45deg) translate(12px, 8px);
   }
   .toggle .line1 {
-    transform: rotate(45deg) translate(20px, 10px);
-  }
-  .contact-img {
-    width: 40px;
+    transform: rotate(45deg) translate(22px, 2px);
   }
 }
 
@@ -366,14 +360,14 @@ p > a {
     font-size: 1.5em;
   }
   .resume-img {
-    width: 90px;
+    width: 4rem;
   }
   .resume-img:hover {
     transform: translate(0px, -4px);
   }
 
   .contact-img {
-    width: 50px;
+    width: 2.5rem;
   }
 }
 
