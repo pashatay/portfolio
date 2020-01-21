@@ -124,6 +124,7 @@ p > a {
   display: none;
 }
 .about-me > p {
+  text-align: left;
   width: 85%;
   height: 100vh;
   padding: 0;
